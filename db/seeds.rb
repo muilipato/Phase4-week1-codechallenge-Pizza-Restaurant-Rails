@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 # seeds.rb
 
-pizza1 = Pizza.create(name: "Hawaiian", ingredients: "Dough, Tomato Sauce, spices, cheese")
+pizza1 = Pizza.create(name: "Hawaiian", ingredients: "Dough, Tomato Sauce, spices, cheese") #Tried using my own names
 pizza2 = Pizza.create(name: "Pepperoni", ingredients: "Dough, Tomato Sauce, Cheese, Pepperoni")
 
 restaurant1 = Restaurant.create(name: "Pizza Inn", address: "Garden City mall")
